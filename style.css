@@ -1,0 +1,68 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.button-area {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+/* 
+div .rock {
+    border: 2px solid blue;
+}
+
+div .paper {
+    border: 2px solid green;
+}
+div .scissors {
+    border: 2px solid yellow;
+} */
+
+.rockArea, .paperArea, .scissorsArea {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+}
+
+body h1 {
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.rockBtn, .paperBtn, .scissorsBtn {
+    font-size: 24px;
+    padding: 15px 0px;
+}
+
+.rockImg {
+    border: 2px solid darkgray;
+}
+
+.paperImg {
+    border: 2px solid lightskyblue;
+}
+
+.scissorsImg {
+    border: 2px solid orange;
+}
+
+.rockBtn {
+    background-color: darkgray;
+}
+
+.paperBtn {
+    background-color: lightskyblue;
+}
+
+.scissorsBtn {
+    background-color: orange;
+}
